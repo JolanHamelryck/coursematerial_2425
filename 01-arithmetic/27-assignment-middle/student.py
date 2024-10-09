@@ -1,7 +1,7 @@
 # write your code here
 def middle(a, b, c):
-
-    return
+    
+    return a + b + c - max(a, b, c) - min(a, b, c)
 
 
 
