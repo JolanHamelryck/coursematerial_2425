@@ -10,4 +10,4 @@ def rock_paper_scissors(player1_choice, player2_choice):
         return 1
     else: 
         return 2 
-    
+
