@@ -2,4 +2,4 @@
 def greet(name):
     return f'Hello, {name}!'
 
-greet ('John')
+print(greet('jolan'))
