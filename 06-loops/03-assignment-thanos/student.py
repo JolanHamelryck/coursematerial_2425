@@ -1,7 +1,7 @@
 # write your code here
-def function(string):
-       if len(string) != 0:
-            return string[len(string) - 1]
-       else:
-            return None
-print(function("AZERTY"))
+def thanos(queue_size, target_size):
+    snaps = 0
+    while queue_size > target_size:
+        queue_size //= 2 
+        snaps += 1
+    return snaps
