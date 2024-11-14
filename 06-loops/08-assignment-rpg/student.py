@@ -10,7 +10,7 @@ def rpg2(n_sides, goal):
     return probability
         
 def rpg3(n_sides, goal):
-    total_combinations = 0 
+    total_combinations = n_sides ** 3  
     good_combinations = 0
     for die1 in range(1, n_sides + 1):
         for die2 in range(1, n_sides + 1):
